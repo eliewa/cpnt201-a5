@@ -9,10 +9,10 @@
   <script src="./assets/js/index.js" defer></script>
   <title>Film Junkies</title>
 </head>
-<body class="text-lg" >
+<body class="text-lg leading-6  text-white" >
   <header>
-    <nav class="flex justify-between bg-gray-900 text-white" >
-      <span class="p-5 text-2xl">Screen <span class="text-yellow-500">Junkies</span></span>
+    <nav class="flex justify-between bg-gray-900" >
+      <span class="p-5 text-2xl font-serif">Screen <span class="text-yellow-500 font-serif">Junkies.</span></span>
       <div class="nav-links">
         <ul class="md:flex justify-between">
           <li class= "pr-10 pt-5 ">Movies</li>
@@ -23,9 +23,21 @@
       </div>
       <div class="login p-5">
         <span class="pr-5">Login</span>
-        <span>Join the Team</span>
+        <!-- <span class="md:hidden">Join the Team</span> -->
       </div>
     </nav>
   </header>
+  <section class= "m-auto text-3xl bg-cover bg-center h-screen" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('./assets/images/andor.jpg')">
+    <div class=" w-96 m-auto banner pt-52">
+      <h1 class="font-bold">Welcome.</h1>
+      <h1 class="md:w-fit">Millions of movies, TV shows and people to discover.</h1>
+      <h1>Explore now.</h1>
+      <div class="search-bar flex">
+        <label for="search" class="pr-10">Search:</label>
+        <input type="text" id="search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search content..." required>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

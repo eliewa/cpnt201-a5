@@ -1,5 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  theme: {
+    extend: {
+      backgroundImage: {
+        'hero': "url('./assets/images/andor.jpg')"
+      }
+    }
+  },
   content: [
     './index.html'
   ],
