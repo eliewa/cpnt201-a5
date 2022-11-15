@@ -1,0 +1,22 @@
+{
+  "name": "film-junkies",
+  "version": "1.0.0",
+  "description": "Film Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliewa/cpnt201-a5.git"
+  },
+  "author": "Eli Ewa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliewa/cpnt201-a5/issues"
+  },
+  "homepage": "https://github.com/eliewa/cpnt201-a5#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
