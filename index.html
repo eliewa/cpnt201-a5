@@ -7,34 +7,48 @@
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/output.css">
   <script src="./assets/js/index.js" defer></script>
+  <script src="https://kit.fontawesome.com/50c78812bc.js" crossorigin="anonymous"></script>
   <title>Film Junkies</title>
 </head>
 <body class="text-lg leading-6  text-white" >
   <header>
     <nav class="flex justify-between bg-gray-900" >
-      <span class="p-5 text-2xl font-serif">Screen <span class="text-yellow-500 font-serif">Junkies.</span></span>
-      <div class="nav-links">
-        <ul class="md:flex justify-between">
-          <li class= "pr-10 pt-5 ">Movies</li>
-          <li class="pr-10 pt-5">TV Shows</li>
-          <li class="pr-10 pt-5" >About Us</li>
-          <li class="pt-5">API</li>
+      <span class="fa-solid fa-bars text-4xl md:invisible p-5"></span>
+      <div class="m-auto md:absolute top-7">
+        <span class="p-5 text-2xl font-serif">Film <span class="text-yellow-500 font-serif">Junkies.</span></span>
+      </div>
+   
+      <div class="nav-links m-auto">
+        <ul class="md:flex hidden justify-between">
+          <li class= "pr-10 pt-5 hover:text-yellow-500">Movies</li>
+          <li class="pr-10 pt-5  hover:text-yellow-500">TV Shows</li>
+          <li class="pr-10 pt-5  hover:text-yellow-500" >About Us</li>
+          <li class="pt-5  hover:text-yellow-500">API</li>
         </ul>
       </div>
       <div class="login p-5">
-        <span class="pr-5">Login</span>
+        <span class="pr-5 hover:text-yellow-500">Login</span>
+        <i class="fa-regular fa-user invisible md:visible"></i>
         <!-- <span class="md:hidden">Join the Team</span> -->
       </div>
     </nav>
   </header>
-  <section class= "m-auto text-3xl bg-cover bg-center h-screen" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('./assets/images/andor.jpg')">
-    <div class=" w-96 m-auto banner pt-52">
-      <h1 class="font-bold">Welcome.</h1>
-      <h1 class="md:w-fit">Millions of movies, TV shows and people to discover.</h1>
+  <section class= "text-3xl bg-cover bg-center h-screen w-[100%]" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url('./assets/images/andor.jpg')">
+    <div class="w-1/3 m-auto banner pt-44">
+      <h1 class="font-bold text-yellow-500 text-5xl">Welcome.</h1>
+      <h1 class="hidden md:inline-block">Millions of movies, TV shows and people to discover.</h1>
       <h1>Explore now.</h1>
-      <div class="search-bar flex">
-        <label for="search" class="pr-10">Search:</label>
-        <input type="text" id="search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search content..." required>
+        <div class="search-bar flex-col md:w-96 mt-10 w-72">
+          <label for="search" class="pr-10 pt-10">Search</label>
+          <input type="text" id="search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Andor" required>
+          <div class="flex justify-around bg-black overflow-y-scroll p-7">
+            <img src="./assets/images/andor.jpg" class="w-28" alt="">
+            <div class="title flex-col">
+              <h2 class="text-md">Andor</h2>
+              <p class="text-sm mt-5 text-gray-400">2022</p>
+            </div>
+            
+          </div>
         </div>
       </div>
     </div>
