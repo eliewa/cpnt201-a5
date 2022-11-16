@@ -1,7 +1,8 @@
 # Eli Ewa Comp 201 - Assignment 4
 
-GitHub Page link -> 
-Repo link -> 
+GitHub Page link -> https://eliewa.github.io/cpnt201-a5/
+
+Repo link -> https://github.com/eliewa/cpnt201-a5
 
 # Attributions
 
